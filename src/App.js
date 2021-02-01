@@ -5,24 +5,21 @@ import Header from "./components/Header";
 import ProductList from "./components/ProductList";
 import Slider from "./components/Slider";
 
-import SinhVien from '../src/components/Databiding/SinhVien.jsx'
-
-
+import SinhVien from "../src/components/Databiding/SinhVien.jsx";
 
 function App() {
   return (
     <div className="App">
-
-        {/* <Header/>
+      {/* <Header/>
         <Slider/>
         <ProductList/>
         <BestLaptopList/>
         <Footer/> */}
 
-        <SinhVien/>
+      {/* <SinhVien /> */}
 
 
-
+      
     </div>
   );
 }
