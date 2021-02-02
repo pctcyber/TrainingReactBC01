@@ -5,7 +5,10 @@ import Header from "./components/Header";
 import ProductList from "./components/ProductList";
 import Slider from "./components/Slider";
 
-import SinhVien from "../src/components/Databiding/SinhVien.jsx";
+// import SinhVien from "../src/components/Databiding/SinhVien.jsx";
+import HandleEvent from "./HandleEvent/HandleEvent";
+import ChonXe from "./StateReact/ChonXe";
+import DemoState from "./StateReact/DemoState";
 
 function App() {
   return (
@@ -17,9 +20,11 @@ function App() {
         <Footer/> */}
 
       {/* <SinhVien /> */}
+        {/* <HandleEvent /> */}
 
+        {/* <DemoState/> */}
+        <ChonXe/>
 
-      
     </div>
   );
 }
